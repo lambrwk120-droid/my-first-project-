@@ -3,41 +3,34 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>LAMBRO BURGER - الذ برجر في القاهرة</title>
+<title>DEMO - مطعم برجر</title>
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{background:#000;color:#fff;font-family:Tahoma,sans-serif;text-align:center}
-h1{color:#FFC107;font-size:38px;margin:18px 0 8px;font-weight:900}
-.sub{color:#fff;font-size:18px;margin-bottom:18px}
-.card{width:94%;max-width:420px;margin:18px auto;background:#111;border-radius:22px;overflow:hidden;border:1px solid #222}
-.card img{width:100%;height:300px;object-fit:cover;display:block}
-.card .txt{padding:14px 0;background:#000}
-.name{color:#FFC107;font-size:22px;font-weight:700}
-.price{color:#fff;font-size:26px;font-weight:900;margin-top:4px}
-.btn{display:inline-block;background:#25D366;color:#fff;padding:18px 40px;border-radius:50px;text-decoration:none;font-weight:900;font-size:20px;margin:28px auto}
+*{margin:0;padding:0;box-sizing:border-box;font-family:sans-serif}
+body{background:#111;color:#fff;overflow-x:hidden}
+.watermark{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:9999;display:flex;flex-wrap:wrap;opacity:.07}
+.watermark span{transform:rotate(-30deg);font-size:40px;font-weight:bold;margin:60px;padding:20px;white-space:nowrap}
+.header{padding:20px;text-align:center;background:#ff4500}
+.products{padding:20px;display:grid;gap:20px;max-width:500px;margin:auto}
+.prod{background:#222;border-radius:15px;overflow:hidden}
+.prod img{width:100%;height:180px;object-fit:cover}
+.prod-body{padding:15px}
+.btn{display:block;background:#25D366;color:#fff;text-align:center;padding:12px;border-radius:10px;text-decoration:none;margin-top:10px}
+.top-note{background:yellow;color:#000;text-align:center;padding:10px;font-weight:bold}
 </style>
 </head>
 <body>
-
-<h1>LAMBRO BURGER 🍔</h1>
-<div class="sub">الذ برجر في القاهرة</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1568909344668-6f14a07b56a0?w=800">
-<div class="txt"><div class="name">كلاسيك</div><div class="price">120ج</div></div>
+<div class="watermark">
+<span>LAMBRO DESIGN - DEMO</span><span>LAMBRO DESIGN - DEMO</span>
+<span>LAMBRO DESIGN - DEMO</span><span>LAMBRO DESIGN - DEMO</span>
+<span>LAMBRO DESIGN - DEMO</span><span>LAMBRO DESIGN - DEMO</span>
 </div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800">
-<div class="txt"><div class="name">دبل تشيز</div><div class="price">165ج</div></div>
+<div class="top-note">🔒 نسخة عرض فقط - اطلب نسختك الأصلية بدون علامة مائية بـ 500ج</div>
+<div class="header"><h1>🍔 LAMBRO BURGER - DEMO</h1></div>
+<div class="products">
+<div class="prod"><img src="https://images.unsplash.com/photo-1568909344668-43052a3900fb?w=600"><div class="prod-body"><h3>كلاسيك برجر - 120ج</h3><a class="btn" href="#">عرض تجريبي</a></div></div>
+<div class="prod"><img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=600"><div class="prod-body"><h3>دبل تشيز - 180ج</h3><a class="btn" href="#">عرض تجريبي</a></div></div>
+<div class="prod"><img src="https://images.unsplash.com/photo-1550547660-a5990a1fba90?w=600"><div class="prod-body"><h3>تشيكن برجر - 150ج</h3><a class="btn" href="#">عرض تجريبي</a></div></div>
 </div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1550547660-d9450f859349?w=800">
-<div class="txt"><div class="name">تشيكن</div><div class="price">110ج</div></div>
-</div>
-
-<a class="btn" href="https://wa.me/201507335980?text=عايز اطلب من LAMBRO BURGER">اطلب الآن 01507335980 📱</a>
-
+<a href="https://wa.me/201027780557?text=عايز%20نسخة%20اصلية%20بدون%20علامة%20مائية" style="position:fixed;bottom:20px;left:20px;right:20px;background:#fff;color:#000;text-align:center;padding:15px;border-radius:50px;font-weight:bold;text-decoration:none;z-index:10000">اطلب النسخة الأصلية بدون علامة - 500ج</a>
 </body>
 </html>
